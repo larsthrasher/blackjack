@@ -1,0 +1,40 @@
+.container{
+  width: 100vw;
+  height:100vh;
+  background-image:url("../images/felt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  z-index: -1;
+}
+
+.box{
+  display:flex;
+  justify-content:space-between;
+}
+
+.firstDiv{
+  border:solid black;
+  flex:2;
+  height:100vh;
+  display:flex-column;
+}
+
+.secondDiv{
+  border:solid black;
+  flex:1;
+  height:100vh;
+}
+
+.upperField{
+  border:solid red;
+  flex:1;
+  height:50vh;
+
+}
+
+.lowerField{
+  border:solid black;
+  flex: 1;
+  height:50vh;
+}

@@ -1,40 +1,56 @@
-.container{
-  width: 100vw;
-  height:100vh;
-  background-image:url("../images/felt.jpg");
-  background-repeat: no-repeat;
+.container {
+  background-image: url("../images/felt.jpg");
+  background-repeat:no-repeat;
   background-size: cover;
-  position:absolute;
-  z-index: -1;
-}
-
-.box{
+  width:100vw;
+  height:100vh;
   display:flex;
-  justify-content:space-between;
 }
 
 .firstDiv{
   border:solid black;
   flex:2;
-  height:100vh;
-  display:flex-column;
+  display:flex;
+  flex-direction:column;
+
 }
 
 .secondDiv{
-  border:solid black;
   flex:1;
-  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
 }
 
-.upperField{
-  border:solid red;
+.upper{
+  border: solid red;
   flex:1;
-  height:50vh;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lower{
+  border: solid blue;
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#pTag{
+  border: dotted black;
+  height: 25vh;
+  width:33vw;
+}
+
+.buttonDiv{
+  border: dotted blue;
+  display:flex;
 
 }
 
-.lowerField{
-  border:solid black;
-  flex: 1;
+.chu{
   height:50vh;
 }

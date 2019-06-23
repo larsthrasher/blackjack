@@ -40,17 +40,35 @@
 }
 
 #pTag{
-  border: dotted black;
+  /* border: dotted black; */
   height: 25vh;
   width:33vw;
+  color:white;
+  font-family: 'East Sea Dokdo';
+  font-size: 60px;
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  flex-wrao: wrap;
 }
 
 .buttonDiv{
-  border: dotted blue;
+  /* border: dotted blue; */
   display:flex;
+  justify-content:space-between;
+}
 
+button{
+  font-family:'East Sea Dokdo';
+  font-size:40px;
 }
 
 .chu{
   height:50vh;
+}
+
+h1{
+  font-family:'East Sea Dokdo';
+  color: white;
+  font-size:40px;
 }

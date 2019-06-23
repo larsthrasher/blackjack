@@ -21,8 +21,8 @@ let p2c4 = document.getElementById('p2c4');
 let p2c5 = document.getElementById('p2c5');
 
 
-const setItOff = () => {
 
+const setItOff = () => {
 
 const buildDeck = (arr1, arr2) => {
   for (let i = 0; i < arr1.length; i++) {
@@ -93,26 +93,31 @@ let addCards = (cardValArr) => {
    addDCards = dealCardss();
 
    const player1win = () => {
-       pTag.innerText = 'You win dude...      -Chauncey';
+       pTag.innerText = "You win dude... -Chauncey";
        setTimeout(restart, 2000);
+
 
    }
    const player1bust = () => {
-       pTag.innerText = 'You bust man, chill!     -Chauncey';
+       pTag.innerText = "You bust man, chill!.  -Chauncey";
        setTimeout(restart, 2000);
+
    }
    const player2win = () => {
-       pTag.innerText = 'I won!       -Chauncey';
+       pTag.innerText = "I won! -Chauncey";
        setTimeout(restart, 2000);
+
    }
    const player2bust = () => {
-       pTag.innerText = 'You only won out of luck!     -Chauncey';
+       pTag.innerText = "You only won out of luck!. -Chauncey";
        setTimeout(restart, 2000);
+
    }
 
    const tie = () => {
-       pTag.innerText = "It's a tie!      -Chauncey";
+       pTag.innerText = "It's a tie!.   -Chauncey";
        setTimeout(restart, 2000);
+      
    }
 
    const hitPlayer = () => {

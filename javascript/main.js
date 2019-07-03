@@ -31,9 +31,9 @@ const buildDeck = (arr1, arr2) => {
         num: arr1[i],
         suit: arr2[j],
         value: i + 2,
-        imgSRC: `<img src= "images/JPEG/${arr1[i]}${
+        imgSRC: `<img src= "images/png/${arr1[i]}${
           arr2[j]
-        }.jpg" width="150px">`
+        }.png" width="150px">`
       };
       deck.push(card);
     }
@@ -117,7 +117,7 @@ let addCards = (cardValArr) => {
    const tie = () => {
        pTag.innerText = "It's a tie!.   -Chauncey";
        setTimeout(restart, 2000);
-      
+
    }
 
    const hitPlayer = () => {

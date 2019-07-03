@@ -8,7 +8,6 @@
 }
 
 .firstDiv{
-  /* border:solid black; */
   flex:2;
   display:flex;
   flex-direction:column;
@@ -24,7 +23,6 @@
 }
 
 .upper{
-  /* border: solid red; */
   flex:1;
   display:flex;
   align-items: center;
@@ -32,7 +30,6 @@
 }
 
 .lower{
-  /* border: solid blue; */
   flex:1;
   display:flex;
   align-items: center;
@@ -40,7 +37,6 @@
 }
 
 #pTag{
-  /* border: dotted black; */
   height: 25vh;
   width:33vw;
   color:white;
@@ -53,7 +49,6 @@
 }
 
 .buttonDiv{
-  /* border: dotted blue; */
   display:flex;
   justify-content:space-between;
 }
